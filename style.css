@@ -18,7 +18,7 @@ p{
 span{
     color: crimson;
 }
-section{
+.hero{
     background-image: url(img/top-banner.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,5 +47,12 @@ section.hero{
     font-size: 16px;
     font-weight: 700;
 }
-
-
+.dream-big{
+    display: flex;
+}
+.db-left img{
+    width: 100%;
+}
+.db-right{
+    margin-top: 75px;
+}
