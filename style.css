@@ -47,12 +47,58 @@ section.hero{
     font-size: 16px;
     font-weight: 700;
 }
-.dream-big{
+section.dream-big{
     display: flex;
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
 }
 .db-left img{
     width: 100%;
 }
 .db-right{
     margin-top: 75px;
+}
+.flexible-container{
+    display: flex;
+}
+.crimson-color{
+    color: crimson;
+}
+.shadow{
+    box-shadow: 10px 10px 40px grey;
+    margin-right: 5%;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 15px;
+    padding-top: 20px;
+ 
+}
+h2{
+    font-size: 40px;
+}
+.experience-area{
+    margin-bottom: 60px;
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 6%;
+}
+.experience-area h1{
+    margin-bottom: 30px;
+}
+#dev2{
+    border-image: linear-gradient(blue,aqua);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+#dev1{
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+footer p{
+    text-align: center;
+    margin-top: 80px;
 }
